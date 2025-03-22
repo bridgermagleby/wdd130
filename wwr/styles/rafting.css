@@ -1,0 +1,88 @@
+:root {
+    --primary-color: #68c1ec; 
+    --secondary-color: #b2b0b1; 
+    --background-color: #f4f4f4; 
+    --text-color: #333333;
+    --highlight-color: #db423b;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+p {
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+header {
+    padding: 10px 0;
+}
+
+nav a {
+    color: var(--secondary-color);
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--highlight-color);
+}
+
+.hero {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.hero img {
+    width: 30%;
+    display: block;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    font-size: 2rem;
+}
+
+article {
+    margin-top: 50px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+article img {
+    float: right;
+    margin-left: 10px;
+}
+
+
+footer a {
+    text-decoration: none;
+}
+
+footer a img {
+    width: 30px;
+    margin-right: 10px;
+}
