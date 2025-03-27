@@ -109,8 +109,9 @@ section h2 {
     align-items: center;
     justify-items: center;
 }
+
 .raft img {
-    grid-column: 0 / 6;
+    grid-column: 1 / 6;
     grid-row: 2/ 3;
     width: 100%;
 
