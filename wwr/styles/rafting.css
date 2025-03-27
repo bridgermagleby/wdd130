@@ -112,8 +112,8 @@ section h2 {
 .raft img {
     grid-column: 0 / 6;
     grid-row: 2/ 3;
-    width: 200px;
-    
+    width: 100%;
+
 }
 
 footer {
