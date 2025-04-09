@@ -143,10 +143,6 @@ section h2 {
     border: 0; 
 }
 
-h2 {
-    margin: 0;
-}
-
 .employee-photos {
     display: flex;
     justify-content: center;
