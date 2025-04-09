@@ -210,28 +210,18 @@ figure {
 
 
 footer {
-    margin-top: 50px;
-    display: grid;
-    grid-template-columns: 15fr 1fr 1fr 1fr;
-    padding: 15px 15px;
-    border: 2px solid #333;
-
-}
-
-footer p {
-    justify-self: center;
-}
-
-footer a {
-    text-decoration: none;
-    justify-items: right;
     display: flex;
-    align-self: center;
-    display: block;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    border: 2px solid #333;
+    padding: 10px;
+
 }
 
-footer a img {
-    display: block;
-    width: 30px;
-    margin-right: 10px;
+footer img {
+    width: 50px;
+    height: 50px; 
+    object-fit: cover;
 }
