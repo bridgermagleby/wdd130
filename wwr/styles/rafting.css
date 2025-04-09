@@ -50,11 +50,11 @@ nav a:hover {
 
 article {
     display: grid;
-    grid-template-columns: 4fr 1fr; /* 1fr for paragraph, auto for image */
-    align-items: center; /* Aligns content vertically */
-    gap: 15px; /* Adds space between the paragraph and the image (optional) */
-    padding: 15px; /* Optional styling */
-    border: 2px solid var(--text-color); /* Optional styling */
+    grid-template-columns: 4fr 1fr; 
+    align-items: center; 
+    gap: 15px;
+    padding: 15px; 
+    border: 2px solid var(--text-color); 
 }
 
 article img {
@@ -88,12 +88,12 @@ h1 {
 section {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 1fr 3fr;
     gap: 10px;
 }
 
 section img {
-    width:auto;
+    max-width:350px;
 }
 
 section h2 {
@@ -116,6 +116,102 @@ section h2 {
     width: 100%;
 
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center; 
+    gap: 20px; 
+}
+
+.content-wrapper {
+    display: flex; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.contact-info, .map {
+    flex: 1;
+    min-width: 300px; 
+}
+
+.map iframe {
+    width: 100%; 
+    height: 300px; 
+    border: 0; 
+}
+
+h2 {
+    margin: 0;
+}
+
+.employee-photos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+figure {
+    text-align: center; 
+}
+
+.contact-form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.contact-form h3 {
+    text-align: center;
+    color: #0288d1;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.contact-form .radio-buttons {
+    margin-bottom: 15px;
+}
+
+.contact-form .checkbox {
+    margin: 15px 0;
+}
+
+.contact-form .submit-btn {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #0288d1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact-form .submit-btn:hover {
+    background-color: #026fa1;
+}
+
 
 footer {
     margin-top: 50px;
