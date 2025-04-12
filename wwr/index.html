@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Homepage for Whitewater Rafting Co.">
+    <meta name="author" content="Bridger Magleby">
+    <title>Home - Whitewater Rafting Co.</title>
+    
+    <!-- Fonts and Styles -->
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <img src="images/logo.png" alt="Whitewater Rafting Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <img src="images/hero.jpg" alt="Adventure Scene" class="hero-image">
+        <h1 class="hero-text">Ready for an Adventure?</h1>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="call-to-action">
+        <p>Embark on an exhilarating journey with our whitewater rafting adventures, where every twist and turn of the river promises adrenaline-pumping excitement. Whether you're navigating rapids for the first time or you're a seasoned rafter seeking your next challenge, our trips are designed to leave you with unforgettable stories and cherished memories.</p>
+        <a href="trips.html" class="cta-button">View Trips</a>
+    </section>
+
+    <!-- About Section with Grid Layout -->
+    <section class="about-grid">
+        <div class="grid-item">
+            <img src="images/rafting1.jpg" alt="Rafting Adventure">
+            <h3>Exciting Adventures</h3>
+            <p>Experience the thrill of navigating through roaring rapids with our expert guides.</p>
+        </div>
+        <div class="grid-item">
+            <img src="images/rafting2.jpg" alt="Scenic Views">
+            <h3>Scenic Views</h3>
+            <p>Enjoy breathtaking views of nature as you journey through pristine rivers.</p>
+        </div>
+        <div class="grid-item">
+            <img src="images/rafting3.jpg" alt="Family Fun">
+            <h3>Fun for Everyone</h3>
+            <p>Our trips are perfect for families, friends, and adventure seekers of all skill levels.</p>
+        </div>
+    </section>
+    <section class="newsletter">
+        <h2>Subscribe to Our Newsletter for 10% Off Your Adventure!</h2>
+        <form action="subscribe.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Whitewater Rafting Co. | Bridger Magleby</p>
+        <a href="#"><img src="images/social1.png" alt="Facebook"></a>
+        <a href="#"><img src="images/social2.png" alt="Twitter"></a>
+        <a href="#"><img src="images/social3.png" alt="Instagram"></a>
+    </footer>
+</body>
+</html>
