@@ -185,7 +185,7 @@ figure {
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    background-image: url('/images/hero.jpg');
+    background-image: url('../images/hero.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
